@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Archive</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Rhena Books</h1></a>
+
+        <!-- Hamburger button -->
+        <button  id="menuButton" type="button">Menu</button>
+        <div id="hamburger">
+            <a href="index.html">Home</a>
+            <a href="featured.html">Featured Books</a>
+            <a href="product.html">Our Books</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="account.html">Sign In</a>
+            <a href="register.html">Register</a>
+            <a href="author.html">Founder</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Rhena Books Archive</h2>
+            <p>Explore books from our archive. Every story deserves a place on the shelf.</p>
+        </section>
+
+        <section id="archivedBooks">
+            <h2>Archive Collection</h2>
+
+            <article class="book">
+                <img src="assets/images/november.jpeg" width="150" alt="">
+                <h3>November 9</h3>
+                <p>Author: Collen Hoover</p>
+                <p>Rating: ★★☆☆☆</p>
+                <a href="#">View Book</a>
+            </article>
+
+            <article class="book">
+                <img src="assets/images/girl-on-the-train.jpeg" width="150" alt="">
+                <h3>The Girl on The Train</h3>
+                <p>Author: Paula Hawkins</p>
+                <p>Rating: ★★☆☆☆</p>
+                <a href="#">View Book</a>
+            </article>
+
+            <article class="book">
+                <img src="assets/images/subtle-act.jpeg" width="150" alt="">
+                <h3>The subtle Act of Not Giving A Fuck</h3>
+                <p>Author: Mark Manson</p>
+                <p>Rating: ★★★☆☆</p>
+                <a href="#">View Book</a>
+            </article>
+
+            <article class="book">
+                <img src="assets/images/notebook.jpeg" width="150" alt="">
+                <h3>The NoteBook</h3>
+                <p>Author: Nicholas Sparks</p>
+                <p>Rating: ★★☆☆☆</p>
+                <a href="#">View Book</a>
+            </article>
+
+            <article class="book">
+                <img src="assets/images/PDF-EPUB-Crew-Girl-by-Sheila-McClure-Download.jpg" width="150" alt="">
+                <h3>Crew Girl</h3>
+                <p>Author: Sheila McClure</p>
+                <p>Rating: ★☆☆☆☆</p>
+                <a href="#">View Book</a>
+            </article>
+
+            <article class="book">
+                <img src="assets/images/never-always.jpeg" width="150" alt="">
+                <h3>Never Always Sometimes</h3>
+                <p>Author: Adi Alsaid</p>
+                <p>Rating: ★★☆☆☆</p>
+                <a href="#">View Book</a>
+            </article>
+
+            <article class="book">
+                <img src="assets/images/empress-theresa.jpeg" width="150" alt="">
+                <h3>Empress Theresa</h3>
+                <p>Author: Norman Boutin</p>
+                <p>Rating: ★☆☆☆☆</p>
+                <a href="#">View Book</a>
+            </article>
+
+            <article class="book">
+                <img src="assets/images/PDF-EPUB-Land-by-Maggie-OFarrell-Download.jpg" width="150" alt="">
+                <h3>Land By</h3>
+                <p>Author: Maggie OFarrell</p>
+                <p>Rating: ★☆☆☆☆</p>
+                <a href="#">View Book</a>
+            </article>
+        </section>
+
+        <section id="bookRequest">
+            <h2>Request A Book</h2>
+            <p>Can't find the book you're looking for? Send us a request and we'll consider adding it.</p>
+
+            <form method="post" action="https://formspree.io/f/xoeerbvd" >
+                <label for="requestName">FullName:</label>
+                <input type="text" id="requestName" name="name" placeholder="Enter your fullname" required>
+                <p id="requestNameError" class="error-message"></p>
+
+                <label for="requestEmail">Email Address:</label>
+                <input type="email" id="requestEmail" name="email" placeholder="Enter your email" required>
+                <p id="requestEmailError" class="error-message"></p>
+
+                <label for="bookTitle">Book Title:</label>
+                <input type="text" id="bookTitle" name="book_title" placeholder="Enter the book title" required>
+                <p id="bookTitleError" class="error-message"></p>
+
+                <label for="bookAuthor">Book Author:</label>
+                <input type="text" id="bookAuthor" name="book_Author" placeholder="Enter the author's name">
+                <p id="bookAuthorError" class="error-message"></p>
+
+                <label for="requestMessage">Additional Message</label>
+                <textarea name="message" id="requestMessage" placeholder="Tell us anything else about the book" rows="5"></textarea>
+                <p id="requestMessageError" class="error-message"></p>
+                
+                <button type="submit">Submit Request</button>
+            </form>
+        </section> 
+    </main>
+ 
+    <footer>
+            <div>
+                <h2>Rhena Books</h2>
+                <p>Your next favourite story begins here.</p>
+            </div>
+
+            <div>
+                <h2>Sidemap</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Our Books</a></li>
+                    <li><a href="archive.html">Archive</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Information</h2>
+                <a href="term.html">Terms and Conditions</a>
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </div>
+            <p>&copy; 2026 Rhena Books. All rights reserved. </p>
+    </footer>
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>

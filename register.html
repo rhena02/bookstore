@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Rhena Books</h1></a>
+
+        <button  id="menuButton" type="button">Menu</button>
+        <div id="hamburger">
+            <a href="index.html">Home</a>
+            <a href="featured.html">Featured Books</a>
+            <a href="product.html">Our Books</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="account.html">Sign In</a>
+            <a href="register.html">Register</a>
+            <a href="author.html">Founder</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Create Your Account</h2>
+            <p>Join the Rhena Books reading community.</p>
+            <form id="registerForm">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullname" placeholder="Enter your full name" required>
+                <p id="nameError" class="error-message"></p>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <p id="emailError" class="error-message"></p>
+
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Choose a  username" required>
+                <p id="userError" class="error-message"></p>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <p id="passError" class="error-message"></p>
+            
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirm_Password" placeholder="Confirm your password" required>
+                <p id="confirmError" class="error-message"></p>
+
+                <button type="submit">Create Account</button>
+            </form>
+
+            <p>Already have an account? <a href="account.html">Sign In</a></p>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h2>Rhena Books</h2>
+            <p>Discover stories. Explore knowledge. Fall in love with reading.</p>
+        </div>
+        
+        <div>
+            <h2>Sidemap</h2>
+                <a href="index.html">Home</a>
+                <a href="featured.html">Featured Books</a>
+                <a href="product.html">Our Books</a>
+                <a href="about.html">About Us</a>
+                <a href="author.html">Founder</a>
+
+        </div>
+
+        <div>
+            <h2>Information</h2>
+            <a href="term.html">Terms and Conditions</a>
+            <a href="contact.html">Contact us</a>
+        </div>
+        <p>&copy; 2026 Rhena Books. All rights reserved. </p>
+    </footer>
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>
